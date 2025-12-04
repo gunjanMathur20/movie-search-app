@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ========= Nav Bar Start here ======== -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>Movie App 🎬🍿</h1>
+    </div>
+    <div class="search">
+      <form>
+        <input type="text" placeholder="Search Movie here" class="inputBox" />
+        <button type="submit" class="searchButton">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- ======== Nav Bar ends here ======== -->
+
+  <!-- ======== Main Container Start here ========= -->
+  <main>
+    <!-- Movie Detail Container (visible after search) -->
+    <section>
+      <div class="movie-container noBackground">
+        <!-- Movie detail will be injected here dynamically -->
+      </div>
+    </section>
+
+    <section class="similar-movies-section">
+      <!-- <h2> Similar Movies</h2> -->
+      <div class="similar-movies poster-grid">
+        <!-- Similar movie posters will appear here -->
+      </div>
+    </section>
+
+    <!-- Random Movie Posters Section (visible initially) -->
+    <section class="random-movies-list">
+      <div class="random-movies">
+        <!-- Random Movies Posters appear here -->
+      </div>
+    </section>
+  </main>
+  <!-- ======== Main Container ends here ========= -->
+
+
+  <!-- Link to JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
